@@ -1,0 +1,12 @@
+langchain
+openai
+tiktoken
+faiss-cpu
+pypdf
+unstructured
+python-docx
+fastapi
+uvicorn
+pydantic
+python-dotenv
+aiofiles

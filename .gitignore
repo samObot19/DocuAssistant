@@ -1,0 +1,104 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# FastAPI static/media
+static/
+media/
+uploads/
+
+# FAISS index files (if saved)
+*.faiss
+*.pkl
+
+# --- Frontend (Node.js/Next.js) ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/.turbo/
+frontend/.vercel/
+frontend/.eslintcache
+frontend/.parcel-cache
+frontend/dist/
+frontend/build/
+frontend/.DS_Store
+frontend/Thumbs.db
+*.pkl
+
+# --- Backend (Python/FastAPI) ---
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.env
+backend/.venv/
+backend/venv/
+backend/env/
+backend/ENV/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.coverage
+backend/.cache
+backend/.DS_Store
+backend/Thumbs.db
+backend/.ipynb_checkpoints/
+backend/htmlcov/
+backend/.tox/
+backend/.nox/
+backend/.pytest_cache/
+backend/.vscode/
+backend/.idea/
+backend/*.log
+backend/uploads/
+backend/static/
+backend/media/
+backend/faiss_index/
+backend/chat_histories/
+
+# OS files
+.DS_Store
+Thumbs.db
